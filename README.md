@@ -1,4 +1,20 @@
-# Extended Kalman Filter Project Starter Code
+# Extended Kalman Filter
+As part of the Self-driving nanodegree programm I have written an Extended Kalman Filter in C++. For lidar measurements a normal kalman filter and for radar measurements the extended kalman filter is used.
+
+[//]: # (Image References)
+
+[result]: ./res/result.png "Result"
+
+In the simulator the green triangles are my predicted positions in this plane and the blue and red dots are sensor measurements.
+The result looks like this:
+
+![alt text][result]
+
+The root mean squared error (RMSE) of my result is displayed in bottom right corner.
+
+## Extended Kalman Filter Project Starter Code
+
+This is the README for the [project exercise](https://github.com/udacity/CarND-Extended-Kalman-Filter-Project).
 Self-Driving Car Engineer Nanodegree Program
 
 In this project you will utilize a kalman filter to estimate the state of a moving object of interest with noisy lidar and radar measurements. Passing the project requires obtaining RMSE values that are lower than the tolerance outlined in the project rubric. 
